@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+header.cabecario{
+    padding: 20px 20px 65px 40px; /** cima direita baixo esquerda**/
+    background-color: rgb(44, 124, 245);
+
+}
+h1{
+    font-family:'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    float: left;
+}
+
+ul.menu{
+    float: right;
+}
+
+li{
+  color: white;
+  padding: 10px 30px;
+  display: inline-block;
+  
+}
+
+a{
+    color: white;
+    font-family:'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+}
