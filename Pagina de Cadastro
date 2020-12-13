@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre sua empresa</title>
+</head>
+<body>
+    <header>
+        <h1>Foodtech Refrigeração Comercial</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html"rel="next">Inicio</a></li>
+            <li><a href="sobre.html" rel="next">Sobre</a></li>
+            <li><a href="serviços.html"rel="next">Serviços</a></li>
+            <li><a href="contato.html"rel="next">Contato</a></li>
+        </ul>
+    
+    </nav>
+    
+    <form action="" method="post" class="form">
+        <h2>Cadastro</h2>
+            
+        <div>
+            <label for="name">Nome / Empresa</label>
+            <input type="text" name="name" placeholder="Digite seu nome ou empresa"> 
+        </div>
+            
+            
+        <div>
+            <label for="email">E-mail</label>
+            <input type="e-mail" maxlength="60" name="email" placeholder="abcde@gmail.com">
+        </div>
+            
+        <div>
+            <label for="telphone">Contato</label>
+            <input type="tel" maxlength="11" name="contato" placeholder="(00) 99999-0000">
+        </div>
+            
+        <div>
+            <label for="document">CPF / CNPJ</label>
+            <input type="tel" maxlength="18" name="documento" placeholder="XX.XXX.XXX/0001-XX">
+        </div>
+            
+            
+        <div>
+            <label for="region">Qual é sua região</label>
+            <select name="regiao">
+                <option value="AT">Araçatuba</option>
+                <option value="AD">Andradina</option>
+                <option value="AM">Adamantina</option>
+                <option value="BA">Brejo Alegre</option>
+                <option value="BG">Birigui</option>
+                <option value="BL">Bilac</option>
+                <option value="BU">Buritama</option>
+                <option value="CR">Coroados</option>
+                <option value="CL">Clementina</option>
+                <option value="DR">Dracena</option>
+                <option value="FP">Fernandópolis</option>
+                <option value="GP">Guararapes</option>
+                <option value="GM">Gabriel Monteiro</option>
+                <option value="JL">Jales</option>
+                <option value="MD">Mirandópolis</option>
+                <option value="NH">Nhandeara</option>
+                <option value="OC">Osvaldo Cruz</option>
+                <option value="PL">Penápolis</option>
+                <option value="PT">Piacatu</option>
+                <option value="SA">Santo Antônio</option>
+                <option value="TP">Tupã</option>
+                <option value="VP">Votuporanga</option>
+                <option value="VL">Valparaiso</option>
+            </select>
+        </div>
+        <div class="button">
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+</body>
+</html>
